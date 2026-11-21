@@ -1,0 +1,26 @@
+/* Estilos del componente RegistroGastos — colores de ContaMoto */
+.registro-gastos { display: flex; flex-direction: column; gap: 16px; }
+
+.encabezado { background: #c62828; color: #fff; padding: 20px; border-radius: 0 0 20px 20px; }
+.encabezado h2 { margin: 0 0 4px; font-size: 22px; }
+.encabezado p { margin: 0; opacity: .95; }
+
+.formulario { display: flex; flex-direction: column; gap: 12px; padding: 0 20px; }
+.formulario label { display: flex; flex-direction: column; gap: 4px; font-size: 13px; font-weight: 600; color: #1a237e; }
+.formulario input,
+.formulario select { padding: 10px 12px; border: 1px solid #c5cae9; border-radius: 10px; font-size: 15px; background: #fff; }
+.formulario input:focus,
+.formulario select:focus { outline: 2px solid #ff6f00; border-color: transparent; }
+.formulario button { padding: 12px; border: 0; border-radius: 10px; background: #ff6f00; color: #fff; font-size: 16px; font-weight: 700; cursor: pointer; }
+.formulario button:hover { background: #c43e00; }
+
+.error { margin: 0; padding: 8px 12px; border-radius: 8px; background: #ffebee; color: #c62828; font-size: 14px; }
+.vacio { text-align: center; color: #777; }
+
+.lista { list-style: none; margin: 0; padding: 0 20px 20px; display: flex; flex-direction: column; gap: 8px; }
+.tarjeta-gasto { display: flex; justify-content: space-between; align-items: center; padding: 12px; border-radius: 12px; background: #f5f6fb; border-left: 4px solid #c62828; }
+.tarjeta-gasto .detalle { display: block; font-size: 12px; color: #666; }
+.tarjeta-gasto .acciones { display: flex; align-items: center; gap: 8px; }
+.tarjeta-gasto .monto { font-weight: 700; color: #c62828; }
+.tarjeta-gasto button { border: 0; background: transparent; color: #999; font-size: 16px; cursor: pointer; }
+.tarjeta-gasto button:hover { color: #c62828; }

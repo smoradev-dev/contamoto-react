@@ -1,0 +1,6 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: system-ui, 'Segoe UI', Roboto, sans-serif; background: #e8eaf6; }
+
+.fondo { min-height: 100vh; display: flex; justify-content: center; align-items: flex-start; padding: 24px 12px; }
+.celular { width: 100%; max-width: 390px; min-height: 760px; background: #fff; border-radius: 28px; overflow: hidden; box-shadow: 0 12px 40px rgba(26, 35, 126, .25); }
+.barra-app { background: #1a237e; color: #fff; padding: 14px 20px; font-weight: 800; font-size: 18px; letter-spacing: .5px; }
