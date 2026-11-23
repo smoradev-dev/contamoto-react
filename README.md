@@ -49,4 +49,4 @@ src/
 
 ## Video explicativo
 
-[Ver video](PEGAR-AQUI-EL-LINK-DEL-VIDEO)
+[Ver video](https://youtu.be/ZiOh26koGHc)
